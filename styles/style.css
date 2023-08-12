@@ -23,17 +23,28 @@ body {
     background-color: #e4e4e4;
 }
 
-.item-menu-nav, a {
+.item-menu-nav {    
+    display: flex;  
+    align-items: center;  
+    width: 200px;
+    height: 45px;
+    padding: 0 15px;    
+    font-size: 0.85em;    
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+
+.item-menu-nav:hover {
+    background-color: #e4e4e4;
+}
+
+.item-menu-nav a {
     color: #FFF;
     text-decoration: none;
-    font-size: 0.9em;
-    font-family: 'Oswald', sans-serif;
     padding: 10px;
-    display: flex;    
-    align-items: center;
 }
 
 .ico-nav {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
 }
