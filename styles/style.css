@@ -1,0 +1,16 @@
+body {
+    display: flex;
+
+}
+
+.menu-navegation {
+    width: 230px;
+    height: 100vh;
+    background-color: purple;
+}
+
+.content {
+    width: 1050px;
+    height: 100vh;
+    background-color: #e4e4e4;
+}
