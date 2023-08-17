@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/style-menu.css">
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/card-general.css">
+    <link rel="stylesheet" href="../styles/card-enviados.css">
     <title>Simpress - FIX</title>
 </head>
 <body>
     <nav class="menu">
         <img id="logo" src="../images/menu-nav/logo-simpress.svg" alt="Logo Simpress">   
-        <span id="line-menu"></span>     
+        <span class="line-menu"></span>     
         <ul id="menu-nav">
             <li class="item-menu-nav">
                 <img class="ico-nav" src="../images/menu-nav/ico-dashboard.svg" alt="Ícone dashboard">
@@ -61,7 +66,7 @@
                 <a href="">Concluídos</a>
             </li>
         </ul>
-        <span id="line-menu"></span>
+        <span class="line-menu"></span>
         <div id="info-login">
             <img id="ico-user" src="../images/menu-nav/ico-user.svg" alt="Ícone usuário">
             <ul id="info-user">
@@ -75,8 +80,45 @@
             <img id="ico-exit" src="../images/menu-nav/ico-exit.svg" alt="Ícone sair">
         </div>
     </nav>
-    <section class="content">
+    <section id="content">
+        <header>
+            <div class="info-page">
+                <img src="../images/header/ico-enviados.svg" alt="Ícone representativo da página">
+                <h1>Enviados</h1>
+            </div>
+            <div id="search">
+                <input type="search" name="search" id="input-search" value="Pesquisar" onfocus="this.value=''">
+                <input id="btn-search" type="image" src="../images/header/ico-search.svg" alt="Botão pesquisar">
+            </div>
+            <a id="add-item" href="">Add +</a>
+        </header>
+            <span id="line-header"></span>
+        <section class="itens">
+            <div class="item">
+                <h3 id="modelo">Galaxy A32</h3>
+                <ul class="specifications">
+                    <li>
+                        <label for="imei">Imei:</label>
+                        <input type="text" name="imei" id="imei">
+                    </li>
+                    <li>
+                        <label for="date">Data de envio:</label>
+                        <input type="date" name="date" id="date">
+                    </li>
+                    <li>
+                        <label for="defect">Defeito:</label>
+                        <input type="text" name="defect" id="defect">
+                    </li>
+                    <li>
+                        <input id="received" type="button" value="Recebido">
+                        <input id="no-received" type="button" value="Não recebido">
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
 
-    </section>
+    </section>    
+        
 </body>
 </html>

@@ -1,0 +1,30 @@
+#imei, #date {
+    width: 200px;
+    height: 20px;
+    color: #0d3c7f;
+}
+
+#defect {
+    width: 200px;
+    height: 50px;
+    text-align: start;
+}
+
+#received, #no-received {
+    width: 100px;
+    height: 30px;
+    color: #fff;    
+    border: none;
+    border-radius: 7px;    
+    border-bottom: 2px solid #000;
+}
+
+#received {
+    background-color: rgba(0, 128, 0, 0.692);
+    border-color: green;
+}
+
+#no-received {
+    background-color: rgba(206, 5, 5, 0.733);
+    border-color: rgb(145, 0, 0);
+}
