@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.itens {
+    display: grid;
+    grid-template-columns: repeat(4  , 1fr);
+    gap: 30px;
+}
+
+.item {
+    background-image: url(../images/cards/cell.svg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 180px;
+    height: 320px;
+    padding: 10px 20px 10px 20px;
+}
+
+.item h3 {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 10px 0 25px 4px;
+    color: #fff;
+}
+
+.item h4 {
+    color: #0d3c7f;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.item p {
+    font-size: 0.8em;
+}
+
+.iconCard {
+    width: 33px;
+    margin-right: 7px;
+}
+
+.imei, .data, .defect {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.defect {
+    height: 85px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.defect span {
+    height: 80%;
+}
+
+.buttons {
+    margin-top: 15px;
+    display: flex;
+}
+
+#btnReceived, #btnNoReceived {
+    border: none;
+    border-radius: 7px;
+    border-bottom: 3px solid;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    margin: 3px;
+    display: block;
+}
+
+#btnReceived {
+    background-color: green;
+    color: #fff;
+    border-color: rgb(0, 90, 0);
+}
+
+#btnNoReceived {
+    background-color: rgb(175, 18, 18);
+    color: #fff;
+    border-color:  rgb(122, 14, 14);
+}
+
+#btnReceived:hover {
+    background-color: rgba(0, 128, 0, 0.795);
+}
+
+#btnNoReceived:hover {
+    background-color: rgb(197, 21, 21);
+}
+
+#btnReceived:active, #btnNoReceived:active {
+    border: none;
+    margin: 6px 3px 0 3px;
+}

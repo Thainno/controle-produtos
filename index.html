@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simpress x FIX</title>
     <link rel="shortcut icon" href="../images/favicon/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/menu.css">
     <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/card-general.css">
-    <link rel="stylesheet" href="../styles/card-enviados.css">
-    <title>Simpress - FIX</title>
+    <link rel="stylesheet" href="../styles/card.css">
 </head>
 <body>
     <nav class="menu">
@@ -94,30 +93,42 @@
         </header>
             <span id="line-header"></span>
         <section class="itens">
-            <div class="item">
-                <h3 id="modelo">Galaxy A32</h3>
-                <ul class="specifications">
-                    <li>
-                        <label for="imei">Imei:</label>
-                        <input type="text" name="imei" id="imei">
-                    </li>
-                    <li>
-                        <label for="date">Data de envio:</label>
-                        <input type="date" name="date" id="date">
-                    </li>
-                    <li>
-                        <label for="defect">Defeito:</label>
-                        <input type="text" name="defect" id="defect">
-                    </li>
-                    <li>
-                        <input id="received" type="button" value="Recebido">
-                        <input id="no-received" type="button" value="Não recebido">
-                    </li>
-                </ul>
-            </div>
-            
+              <div class="item">
+                    <h3>GALAXY A32</h3>
+                    <span class="imei">
+                        <picture>
+                            <img class="iconCard" src="../images/cards/imei.svg" alt="Ícone imei">
+                        </picture>
+                        <span>
+                            <h4>Imei:</h4>
+                            <p>3572634112763</p>
+                        </span>
+                    </span>
+                    <span class="data">
+                        <picture>
+                            <img class="iconCard" src="../images/cards/calendar.svg" alt="Ícone data de envio">
+                        </picture>
+                        <span>
+                            <h4>Data de envio:</h4>
+                            <p>20/20/2000</p>
+                        </span>
+                    </span>
+                    <span class="defect">
+                        <picture>
+                            <img class="iconCard" src="../images/cards/defect.svg" alt="Ícone defeito">
+                        </picture>
+                        <span>
+                            <h4>Defeito informado:</h4>
+                            <p>Aparelho não está ligando, tela quabrada, bateria estufada, vidro da camera tricado.</p>
+                        </span>
+                    </span>
+                    <div class="buttons">
+                        <input id="btnReceived" type="button" value="Recebido">                    
+                        <input id="btnNoReceived" type="button" value="Não recebido">
+                    </div>
+                </div>
         </section>
-
+        <footer></footer>
     </section>    
         
 </body>
