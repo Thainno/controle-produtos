@@ -8,10 +8,9 @@
 </ul><br>
 
 <h2>💻 Projeto</h2>
-
-<p>Clique <a href="">aqui</a> para visualizar e testar o projeto.</p
-
-<img src=""></img><br>
+<ul>
+<li>Em desenvolvimento</li>
+</ul><br>
 
 ### 
 
